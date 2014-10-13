@@ -1,0 +1,300 @@
+<%- include layouts/header.ejs %>
+
+   <script>
+     document.createElement('header');
+     document.createElement('nav');
+     document.createElement('section');
+     document.createElement('article');
+     document.createElement('aside');
+     document.createElement('footer');
+     document.createElement('hgroup');
+    </script>
+   <![endif]-->
+ 
+
+
+    <div class="container">
+  	<!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
+<div class="container provider_detail" itemscope="" itemtype="http://schema.org/LocalBusiness">
+
+       <div class="row"> 
+
+          </div>
+            <div class="subsection description">
+
+      <div class="span12">
+          <ul class="nav nav-tabs" id="reviews_tab">
+              <li class="active"><a href="#activities" data-toggle="tab">Add Offering</a></li> 
+          </ul>
+
+          <div class="tab-content">
+
+
+<!-- Ajoy modified -->
+<form method="post" action="/offerings/add">
+<table id="schedule_table" class="table tablesorter">
+    <tr>
+      <td>Power Program</td><td><input type="text" name="name" required></td>
+      <td>Category</td><td><input type="text" name="category" required></td>
+    </tr>
+    <tr>
+      <td>Age / Grade</td><td><input type="text" name="age"></td>
+    </tr>
+
+    <tr>
+      <td>Start Date</td><td><input type="text" name="start_date"></td>
+      <td>End Date</td><td><input type="text" name="end_date"></td>
+    </tr>
+
+    <tr>
+      <td>Duration</td><td><input type="text" name="duration"></td>
+    </tr>
+
+    <tr>
+      <td>Price</td><td><input type="text" name="price" required></td>
+    </tr>
+
+    <tr>
+      <td>Price Unit</td><td><input type="text" name="price_unit" value="per class"></td>
+    </tr>
+    <tr>
+	<td></td><td>
+	<td></td><td>
+	<td></td><td>
+        <center>
+         <input type="submit" class="btn btn btn-primary button-rounded" name="submit" value="Save"> 
+         <input type="button" class="btn btn btn-primary button-rounded" name="cancel" value="Cancel" onClick="cancelAdd()">
+        </center>
+        </td>
+    </tr>							
+</table>
+</div>
+	
+
+
+
+	
+
+          </div> <!-- .tab-content -->
+      </div> <!-- .span12 -->
+    </div>
+</div> <!-- .container -->
+
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      $('.carousel').carousel({interval: 2000});
+
+      $("#more_description").click(function(){
+        $("#short_description").hide();
+        $("#full_description").show();
+        return false;
+      });
+
+    _gaq.push(['_trackEvent', 'Stats:The Dance Affair,id=2358,level=20', "Pageview", 'loc=San Jose,CA,loc_id=2886']);
+    update_provider_stats('provider_id=2358&provider_location_id=2886&page_view=true');
+
+    });
+
+  function show_reviews_tab(){
+		$('#reviews_tab a[href="#reviews"]').tab('show');
+  }
+
+	function update_enroll_stats(stat, activity_id, schedule_id){
+		stats = 'provider_id=2358&provider_location_id=2886&activity_id=' + activity_id + '&activity_schedule_id=' + schedule_id + '&' + stat + '=true' ;
+	  update_provider_stats(stats);
+	  _gaq.push(['_trackEvent', 'Stats:The Dance Affair,id=2358,level=20,featured=', "Enroll Start", 'loc=San Jose,CA,loc_id=2886']);
+	}
+
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+  $.ajaxSetup({
+    beforeSend: function(xhr) {
+      xhr.setRequestHeader('X-CSRF-Token', jQuery('meta[name="csrf-token"]').attr('content'));
+    }
+  });
+  
+
+
+	  $.ajax({
+	    type: "GET"               ,
+	    url: '/providers/load_activities_tab' ,
+	    data: {
+	    	'id' : 2886,
+	    	'brand' : "",
+	    	'classes' : "",
+	    	'camps' : "",
+	    	'birthday_parties' : "",
+	    	'start_date' : "",
+	    	'end_date' : "",
+	    	'grade' : "",
+	    	'category' : "",
+	    	'age' : "",
+	    	}
+	  });
+	  $.ajax({
+	    type: "GET"               ,
+	    url: '/providers/load_reviews_tab' ,
+	    data: {'id' : 2886}
+	  });
+    $("#indicator1").show();
+    $("#indicator2").show();
+	  
+  });
+</script>
+
+
+<script>
+
+  function submit_form(form, success) {
+    var form = $(form)[0];
+    var data = $(form).serialize();
+    $.ajax(form.action + '.json', {
+      dataType: 'JSON',
+      type: 'POST',
+      data: data,
+      success: (function () {
+        if (typeof success === 'function') {
+          success();
+        }
+        $(form)[0].reset();
+        find_containing_modal(form).modal('hide');
+      }),
+      error: (function () {alert('The changes were not accepted.')})
+    });
+  }
+
+  function load_child_selection_modal (activity_schedule_id, intent) {
+      $("#login-title").text("Please sign up to add events to your calendar");
+      $('#login').modal('show');
+  }
+
+  function find_new_child_modal() {return $('#new_child_modal')}
+  function find_new_child_form() {return $('#new_child')}
+  function find_child_filter_dropdown() {return $('#child_filter_dropdown')}
+  function find_containing_modal(element) {return $(element).closest('.modal')}
+  function reload_child_filter_dropdown(){}
+
+</script>
+<div id="edit_child_schedules">
+</div>
+
+
+<div id="giveaway_modal" class="modal hide" style="width:500px;">
+  <button type="button" class="close" style="margin-right: 5px;margin-top: 5px;" data-dismiss="modal" aria-hidden="true">×</button>
+  <div class="modal-body">
+		<center><a href="http://www.powerup.com/registrations/new?activity_schedule_id=90671"><img src="ClassSchedule_files/win-100-seal.png" style="width:200px" align="top"></a>
+  	<h2>
+	  		    Get $100 off any activity*
+    </h2>
+		</center>
+    <p>*One lucky winner can choose any activity listed on powerup's <a href="http://www.powerup.com/search?easy_enroll=true&amp;b=v1">EasyEnroll page</a>. Winner will get $100 discount on the activity fee. </p>
+    <p>100's of activities to choose from: Art, Theatre, Writing, Sports, Science, Overnight, and more!</p>
+		<center>
+    <p><a href="http://www.powerup.com/registrations/new?activity_schedule_id=90671&amp;aht_src=AHProvider-popup-2358&amp;aht_cam=giveaway" class="btn btn-primary btn-large button-rounded input-large">ENTER TO WIN</a>
+		<br><strong>Hurry, ends soon</strong>
+ 		</p>
+		</center>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+  });
+</script>
+    </div>
+  	<footer>
+
+    <div class="container">
+            <div class="span3">
+		    <a href="http://www.powerup.com/pages/about">
+		    <h4>About Us</h4>
+		    </a>
+            </div>
+
+            <div class="span3">
+            	    <a href="http://www.powerup.com/contacts/contact_admin">
+	            <h4>Contact Us</h4>
+		    </a>
+            </div>
+
+        </div>
+    </div> <!-- .container -->
+</footer>
+
+
+		  	<!-- Google Analytics Information Here -->
+  	<script type="text/javascript">
+  
+  	  var _gaq = _gaq || [];
+  	  _gaq.push(['_setAccount', 'UA-21063367-1']);
+  	  _gaq.push(['_trackPageview']);
+  
+  	  (function() {
+  	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+  	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  	  })();
+  
+      _gaq.push(['_setCustomVar',
+            1,             // This custom var is set to slot #1.  Required parameter.
+            'anonymous',   // The name of the custom variable.  Required parameter.
+            '1de4633fa831d8fbd4ba471100024cda',      // Sets the value of "User Type" to "Member" or "Visitor" depending on status.  Required parameter.
+             2             // Sets the scope to session-level.  Optional parameter.
+         ]);
+
+      _gaq.push(['_setCustomVar',
+            2,             // This custom var is set to slot #2.  Required parameter.
+            'user_ip',   // The name of the custom variable.  Required parameter.
+            '199.16.140.24',      // Sets the value of "User Type" to "Member" or "Visitor" depending on status.  Required parameter.
+             2             // Sets the scope to session-level.  Optional parameter.
+         ]);
+
+      _gaq.push(['_setCustomVar',
+            3,             // This custom var is set to slot #3.  Required parameter.
+            'user_cookie',   // The name of the custom variable.  Required parameter.
+            '1de4633fa831d8fbd4ba471100024cda',      // Sets the value of "User Type" to "Member" or "Visitor" depending on status.  Required parameter.
+             2             // Sets the scope to session-level.  Optional parameter.
+         ]);
+
+
+    </script>
+  	<!-- Google Analytics Information -->
+
+		<!-- Google Code for Remarketing Tag Begin -->
+		<!--------------------------------------------------
+		Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+		--------------------------------------------------->
+		<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 1003418645;
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		/* ]]> */
+		</script>
+		<script type="text/javascript" src="ClassSchedule_files/conversion.js">
+		</script><iframe name="google_conversion_frame" title="Google conversion frame" src="ClassSchedule_files/a.html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" frameborder="0" height="13" width="300">&lt;img
+ height="1" width="1" border="0" alt="" 
+src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1003418645/?frame=0&amp;random=1408754622181&amp;cv=7&amp;fst=1408754622181&amp;num=1&amp;fmt=1&amp;guid=ON&amp;u_h=900&amp;u_w=1440&amp;u_ah=816&amp;u_aw=1440&amp;u_cd=24&amp;u_his=13&amp;u_tz=-420&amp;u_java=true&amp;u_nplug=9&amp;u_nmime=71&amp;frm=0&amp;url=http%3A//www.powerup.com/biz/2886-the-dance-affair-san-jose-ca&amp;ref=http%3A//www.powerup.com/search-filter%3Futf8%3D%25E2%259C%2593%26widget%3D%26view%3D%26age%3D%26search%255Bstart_date%255D%3D%26search%255Bend_date%255D%3D%26sun%3D%26mon%3D%26tue%3D%26wed%3D%26thur%3D%26fri%3D%26sat%3D%26category%3D%26classes%3Dtrue%26radius%3D10%26location%3DSan+Jose%252C+CA%26search_string%3D%26commit%3DApply+Filters%26sort%3Ddate"
+ /&gt;</iframe>
+		<noscript>
+		<div style="display:inline;">
+		<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1003418645/?value=0&amp;guid=ON&amp;script=0"/>
+		</div>
+		</noscript>
+		<!-- Google Code for Remarketing Tag End -->
+
+	
+	<!-- crazy egg Start -->
+		<script type="text/javascript">
+		setTimeout(function(){var a=document.createElement("script");
+		var b=document.getElementsByTagName("script")[0];
+		a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0014/1667.js?"+Math.floor(new Date().getTime()/3600000);
+		a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+		</script>
+	<!-- crazy egg End -->
+	
+
