@@ -1,0 +1,535 @@
+<mockup version="1.0" skin="sketch" measuredW="1673" measuredH="2196" mockupW="1630" mockupH="2160">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::TabBar" x="43" y="37" w="715" h="548" measuredW="332" measuredH="100" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10470904</color>
+        <selectedIndex>2</selectedIndex>
+        <text>Home%2C%20Customer%2C%20Classes%2C%20Enrollment</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::DataGrid" x="43" y="199" w="715" h="342" measuredW="730" measuredH="376" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <text>Class%5Cr%28ID%29%20%5E%2C%20Start%20Date%2C%20End%20Date%2C%20Start%20Time%2C%20End%20Time%2C%20Price%2C%20Total%20Seats%2C%20Open%20Seats%0AArt%20Class-Acrylic%20Paining%5Cr123-34556%2C%2012-Jun-2014%2C%2017-Jun-2014%2C%209%3A00AM%2C%2012PM%2C%20%24220%2C%2020%2C%203%0AArt%20Class-Oil%20Paining%5Cr123-30984%2C%2020-Jun-2014%2C%2024-Jun-2014%2C%209%3A00AM%2C%2012PM%2C%20%24210%2C%2020%2C%206%0AArt%20Class-Modern%20Art%5Cr123-09032%2C%2020-Jun-2014%2C%2024-Jun-2014%2C%209%3A00AM%2C%2012PM%2C%20%24225%2C%2020%2C%206%0AKarate%5Cr99093%2C%2020-Jun-2014%2C%2024-Jun-2014%2C%209%3A00AM%2C%2012PM%2C%20%24245%2C%2010%2C%206%0AMusic-Piano%5Cr19380-0620-04%2C%2020-Jun-2014%2C%2024-Jun-2014%2C%209%3A00AM%2C%209%3A30PM%2C%20%2430%2C%201%2C%201%0AMusic-Piano%5Cr19380-0620-03%2C%2020-Jun-2014%2C%2024-Jun-2014%2C%209%3A30AM%2C%2010%3A00PM%2C%20%2430%2C%201%2C%201%0AMusic-Piano%5Cr19380-0620-04%2C%2020-Jun-2014%2C%2024-Jun-2014%2C%2010%3A00AM%2C%2010%3A30PM%2C%20%2430%2C%201%2C%201%0AMusic-Violin%5Cr19381-0624-01%2C%2020-Jun-2014%2C%2024-Jun-2014%2C%2010%3A00AM%2C%2010%3A30PM%2C%20%2430%2C%201%2C%201%20%0AMusic-Guitar%5Cr19382-0620-01%2C%2020-Jun-2014%2C%2024-Jun-2014%2C%2010%3A00AM%2C%2010%3A30PM%2C%20%2430%2C%201%2C%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::SearchBox" x="654" y="159" w="-1" h="-1" measuredW="64" measuredH="25" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>search</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::TextInput" x="58" y="120" w="352" h="-1" measuredW="43" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Class</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::SubTitle" x="58" y="73" w="-1" h="-1" measuredW="152" measuredH="37" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Class%20Catalog</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::DateChooser" x="140" y="159" w="148" h="-1" measuredW="106" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%20/%20%20/%20%20%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="457" y="120" w="93" h="23" measuredW="93" measuredH="23" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5Bx%5D%20Open%20Seat</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Label" x="58" y="160" w="-1" h="-1" measuredW="70" measuredH="23" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Start%20Date</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::DateChooser" x="457" y="158" w="151" h="-1" measuredW="106" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%20/%20%20/%20%20%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="379" y="160" w="-1" h="-1" measuredW="60" measuredH="23" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>End%20Date</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::TabBar" x="801" y="36" w="872" h="549" measuredW="332" measuredH="100" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10470904</color>
+        <selectedIndex>1</selectedIndex>
+        <text>Home%2C%20Customer%2C%20Classes%2C%20Enrollment</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::DataGrid" x="801" y="199" w="-1" h="-1" measuredW="872" measuredH="191" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <text>%2CStudent%5CrParent%20%5E%2C%20Email%20Address%2C%20Home%20Phone%2C%20Mobile%20Phone%2C%20Classes%20Enrolled%2C%20Active%2C%20Payment%20Due%2C%20Start%20Date%0A%5B%5D%2CEric%20Donald%5CrMike%20Donald%2C%20md@gmail.com%2C%20650-234-0934%2C%20510-239-0987%2C%20Art%20Class-Oil%20Paining%5Cr123-30984%2C%20Yes%2C%20%24180%2C12-Jun-2014%0A%5BX%5D%2C%20Anika%20Sen%5CrRini%20Sen%2C%20rsen@gmail.com%2C%20650-455-0908%2C%20925-444-0987%2C%20Art%20Class-Modern%20Art%5Cr123-09032%2C%20Yes%2C%20%24100%2C12-Jun-2014%0A%5BX%5D%2CCharu%20Goyal%5CrDharma%20Goyal%2C%20rasd@gmail.com%2C%20650-234-0934%2C%20510-239-0987%2C%20Karate%5Cr99093%2C%20No%2C%200%2C20-Jun-2014%0A%5B%5D%2C%20Suchi%20Jain%5CrAnushka%20Jain%2C%20anush@gmail.com%2C%20650-123-0934%2C%20510-535-0987%2C%20Music-Piano%5Cr19380-0620-04%2CYes%2C%20%2420%2C10-Jun-2014</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Button" x="1555" y="513" w="-1" h="-1" measuredW="92" measuredH="28" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Send%20Email</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::MediaControls" x="639" y="541" w="-1" h="-1" measuredW="110" measuredH="36" zOrder="13" locked="false" isInGroup="-1"/>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::TextArea" x="836" y="400" w="704" h="140" measuredW="200" measuredH="140" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Thank%20you%20for%20you%20interest.%20We%20have%20great%20opening%20in%20music%20class.%20We%20can%20offer%2030%25%20discount%20as%20retuning%20strudent.%20We%27ve%20great%20review%20on%20the%20new%20instructor.%20Please%20check%20here.%20Please%20call%20us%20to%20schedule%20a%20time%20or%20check%20online.%0A%20%0AThank%20you%20for%20interest%20and%20we%27ll%20do%20our%20best%20to%20get%20your%20kids%20the%20best%20learning%20experience.</text>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::SearchBox" x="1410" y="161" w="-1" h="-1" measuredW="64" measuredH="25" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>search</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::TextInput" x="814" y="122" w="352" h="-1" measuredW="54" measuredH="27" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Course</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::SubTitle" x="814" y="75" w="-1" h="-1" measuredW="262" measuredH="37" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Customer%20Management</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="1213" y="122" w="93" h="23" measuredW="66" measuredH="23" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5Bx%5D%20Active</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::TextInput" x="814" y="157" w="352" h="-1" measuredW="101" measuredH="27" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Student%20Name</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::TabBar" x="43" y="649" w="825" h="599" measuredW="332" measuredH="100" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10470904</color>
+        <selectedIndex>3</selectedIndex>
+        <text>Home%2C%20Customer%2C%20Classes%2C%20Enrollment</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::DataGrid" x="43" y="784" w="825" h="166" measuredW="762" measuredH="154" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <text>%5B%5D%2CCourse%5Cr%28Class%20ID%29%20%5E%2C%20Start%20Date%2C%20End%20Date%2C%20Start%20Time%2C%20End%20Time%2C%20Price%2C%20Total%20Seats%2C%20Open%20Seats%0A%5B%5D%2CArt%20Class-Acrylic%20Paining%5Cr123-34556%2C%2012-Jun-2014%2C%2017-Jun-2014%2C%209%3A00AM%2C%2012PM%2C%20%24220%2C%2020%2C%203%0A%5B%5D%2CArt%20Class-Oil%20Paining%5Cr123-30984%2C%2020-Jun-2014%2C%2024-Jun-2014%2C%209%3A00AM%2C%2012PM%2C%20%24210%2C%2020%2C%206%0A%5Bx%5D%2CArt%20Class-Modern%20Art%5Cr123-09032%2C%2020-Jun-2014%2C%2024-Jun-2014%2C%209%3A00AM%2C%2012PM%2C%20%24225%2C%2020%2C%206</text>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::SearchBox" x="439" y="738" w="-1" h="-1" measuredW="64" measuredH="25" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>search</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::TextInput" x="56" y="738" w="352" h="-1" measuredW="69" measuredH="27" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Art%20Class</text>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::SubTitle" x="58" y="686" w="-1" h="-1" measuredW="211" measuredH="37" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Course%20Enrollment</text>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::DataGrid" x="43" y="998" w="-1" h="-1" measuredW="825" measuredH="117" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <text>%2CStudent%5CrParent%20%5E%2C%20Email%20Address%2C%20Home%20Phone%2C%20Mobile%20Phone%2C%20Classes%20Enrolled%2C%20Active%2C%20Payment%20Due%2C%20Start%20Date%0A%5B%5D%2C%20Suchi%20Jain%5CrAnushka%20Jain%2C%20anush@gmail.com%2C%20650-123-0934%2C%20510-535-0987%2C%20Music-Piano%5Cr19380-0620-04%2CYes%2C%20%2420%2C10-Jun-2014%0A%5BX%5D%2C%20Palash%20Jain%5CrAmitabh%20Jain%2C%20abhsi@gmail.com%2C%20650-453-7734%2C%20415-445-7827%2C%20Music-Piano%5Cr19380-0620-04%2CYes%2C%20%2420%2C10-Jun-2014</text>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::SearchBox" x="441" y="965" w="-1" h="-1" measuredW="64" measuredH="25" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>search</text>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::TextInput" x="58" y="965" w="352" h="-1" measuredW="37" measuredH="27" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Jain</text>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Button" x="718" y="963" w="-1" h="-1" measuredW="134" measuredH="28" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Add%20New%20Student</text>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::Label" x="58" y="1130" w="-1" h="-1" measuredW="101" measuredH="23" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Payment%20Option</text>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::ComboBox" x="425" y="1130" w="-1" h="-1" measuredW="108" measuredH="86" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Master%20Card%0AVisa%20Card%0ADiscover%0AAmerican%20Express</text>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::DateChooser" x="650" y="1172" w="171" h="-1" measuredW="106" measuredH="27" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%20/%20%20/%20%20%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Label" x="592" y="1174" w="-1" h="-1" measuredW="44" measuredH="23" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Expiry</text>
+      </controlProperties>
+    </control>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::TextInput" x="650" y="1130" w="171" h="-1" measuredW="37" measuredH="27" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Jain</text>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::Label" x="592" y="1131" w="-1" h="-1" measuredW="33" measuredH="23" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Card</text>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::RadioButtonGroup" x="196" y="1130" w="-1" h="-1" measuredW="161" measuredH="69" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%28o%29%20Credit%20Card%20%28selected%29%0A%28%20%29%20Check%0A%28%20%29%20Cash</text>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Button" x="718" y="1214" w="136" h="28" measuredW="58" measuredH="28" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Enroll</text>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Button" x="610" y="94" w="-1" h="-1" measuredW="115" measuredH="28" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Add%20New%20Class</text>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::TabBar" x="901" y="649" w="715" h="548" measuredW="332" measuredH="100" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10470904</color>
+        <selectedIndex>2</selectedIndex>
+        <text>Home%2C%20Customer%2C%20Classes%2C%20Enrollment</text>
+      </controlProperties>
+    </control>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::SubTitle" x="925" y="685" w="-1" h="-1" measuredW="193" measuredH="37" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Add%20a%20new%20Class</text>
+      </controlProperties>
+    </control>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::Label" x="928" y="737" w="99" h="23" measuredW="95" measuredH="23" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Class%20Category</text>
+      </controlProperties>
+    </control>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::TextInput" x="1281" y="739" w="320" h="-1" measuredW="127" measuredH="27" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Bollywood%20Dancing</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::Label" x="1205" y="742" w="99" h="23" measuredW="38" measuredH="23" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Name</text>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::ComboBox" x="1037" y="739" w="-1" h="-1" measuredW="68" measuredH="105" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dance%0AMusic%0AArt%0AActive%20Sport%0ATechnical</text>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Label" x="1207" y="772" w="99" h="23" measuredW="72" measuredH="23" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Description</text>
+      </controlProperties>
+    </control>
+    <control controlID="77" controlTypeID="com.balsamiq.mockups::TextArea" x="1283" y="771" w="316" h="73" measuredW="200" measuredH="140" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>This%20is%20a%20great%20class%20ti%20learn%20about%20various%20differnt%20moves%20used%20in%20Indian%20songs.%20This%20helps%20kids%20do%20excercise%20while%20having%20fund%20with%20the%20rhythm.</text>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::DateChooser" x="1036" y="1005" w="132" h="-1" measuredW="140" measuredH="27" zOrder="46" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>06/20/2014%20%20%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="79" controlTypeID="com.balsamiq.mockups::Label" x="933" y="1007" w="75" h="23" measuredW="70" measuredH="23" zOrder="47" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Start%20Date</text>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::DateChooser" x="1315" y="1005" w="127" h="-1" measuredW="140" measuredH="27" zOrder="48" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>06/24/2014%20%20%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Label" x="1247" y="1007" w="-1" h="-1" measuredW="60" measuredH="23" zOrder="49" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>End%20Date</text>
+      </controlProperties>
+    </control>
+    <control controlID="82" controlTypeID="com.balsamiq.mockups::Label" x="933" y="1036" w="75" h="23" measuredW="69" measuredH="23" zOrder="50" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Start%20Time</text>
+      </controlProperties>
+    </control>
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::Label" x="1249" y="1033" w="73" h="23" measuredW="60" measuredH="23" zOrder="51" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>End%20Time</text>
+      </controlProperties>
+    </control>
+    <control controlID="84" controlTypeID="com.balsamiq.mockups::TextInput" x="1037" y="1036" w="74" h="-1" measuredW="73" measuredH="27" zOrder="52" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>09%3A00%20AM</text>
+      </controlProperties>
+    </control>
+    <control controlID="85" controlTypeID="com.balsamiq.mockups::TextInput" x="1317" y="1036" w="74" h="-1" measuredW="71" measuredH="27" zOrder="53" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>01%3A00%20PM</text>
+      </controlProperties>
+    </control>
+    <control controlID="86" controlTypeID="com.balsamiq.mockups::Label" x="935" y="1072" w="75" h="23" measuredW="35" measuredH="23" zOrder="54" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Price</text>
+      </controlProperties>
+    </control>
+    <control controlID="87" controlTypeID="com.balsamiq.mockups::TextInput" x="1039" y="1072" w="74" h="-1" measuredW="44" measuredH="27" zOrder="55" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%24220</text>
+      </controlProperties>
+    </control>
+    <control controlID="88" controlTypeID="com.balsamiq.mockups::RadioButtonGroup" x="1122" y="1074" w="125" h="69" measuredW="107" measuredH="69" zOrder="56" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%28o%29%20Weekly%0A%28%20%29%20Twice%20Weekly%0A%28%20%29%20Monthly</text>
+      </controlProperties>
+    </control>
+    <control controlID="89" controlTypeID="com.balsamiq.mockups::Label" x="1249" y="1077" w="58" h="23" measuredW="38" measuredH="23" zOrder="57" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Seats</text>
+      </controlProperties>
+    </control>
+    <control controlID="90" controlTypeID="com.balsamiq.mockups::TextInput" x="1319" y="1077" w="74" h="-1" measuredW="28" measuredH="27" zOrder="58" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>20</text>
+      </controlProperties>
+    </control>
+    <control controlID="91" controlTypeID="com.balsamiq.mockups::Label" x="933" y="868" w="99" h="23" measuredW="48" measuredH="23" zOrder="59" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Images</text>
+      </controlProperties>
+    </control>
+    <control controlID="92" controlTypeID="com.balsamiq.mockups::Label" x="933" y="969" w="99" h="23" measuredW="45" measuredH="23" zOrder="60" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Videos</text>
+      </controlProperties>
+    </control>
+    <control controlID="94" controlTypeID="com.balsamiq.mockups::Image" x="1036" y="862" w="120" h="90" measuredW="77" measuredH="79" zOrder="61" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../../../../Desktop/bollywood_480.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="95" controlTypeID="com.balsamiq.mockups::Image" x="1182" y="862" w="120" h="90" measuredW="77" measuredH="79" zOrder="62" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../../../../Desktop/images-1.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="96" controlTypeID="com.balsamiq.mockups::Image" x="1333" y="862" w="77" h="90" measuredW="77" measuredH="79" zOrder="63" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../../../../Desktop/57105786_1.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="98" controlTypeID="com.balsamiq.mockups::TextInput" x="1037" y="965" w="320" h="-1" measuredW="309" measuredH="27" zOrder="64" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>https%3A//www.youtube.com/watch%3Fv%3Dfeb6LbA3Cqg</text>
+      </controlProperties>
+    </control>
+    <control controlID="99" controlTypeID="com.balsamiq.mockups::Button" x="1486" y="1127" w="-1" h="-1" measuredW="115" measuredH="28" zOrder="65" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Add%20New%20Class</text>
+      </controlProperties>
+    </control>
+    <control controlID="100" controlTypeID="com.balsamiq.mockups::RadioButton" x="1487" y="1006" w="-1" h="-1" measuredW="108" measuredH="22" zOrder="66" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Enable%20Review</text>
+      </controlProperties>
+    </control>
+    <control controlID="101" controlTypeID="com.balsamiq.mockups::TabBar" x="43" y="1277" w="825" h="919" measuredW="402" measuredH="100" zOrder="67" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10470904</color>
+        <markup>true</markup>
+        <selectedIndex>4</selectedIndex>
+        <text>Home%2C%20About%20us%2C%20History%2C%20Contact%20us%2C%20Enrollment</text>
+      </controlProperties>
+    </control>
+    <control controlID="102" controlTypeID="com.balsamiq.mockups::Image" x="58" y="1313" w="-1" h="-1" measuredW="200" measuredH="155" zOrder="68" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../../../../Desktop/Screen%2520Shot%25202014-07-15%2520at%25207.41.18%2520AM.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="103" controlTypeID="com.balsamiq.mockups::Image" x="306" y="1313" w="515" h="155" measuredW="679" measuredH="334" zOrder="69" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../../../../Desktop/Screen%2520Shot%25202014-07-15%2520at%25207.42.02%2520AM.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="104" controlTypeID="com.balsamiq.mockups::Label" x="58" y="1491" w="766" h="30" measuredW="758" measuredH="37" zOrder="70" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <color>7609159</color>
+        <size>24</size>
+        <state>up</state>
+        <text>Welcome%20to%20Activity%20Enrollment%20process%2C%20powered%20by%20Activity%20Pro%20Inc.</text>
+      </controlProperties>
+    </control>
+    <control controlID="105" controlTypeID="com.balsamiq.mockups::Calendar" x="61" y="1541" w="-1" h="-1" measuredW="96" measuredH="96" zOrder="71" locked="false" isInGroup="-1"/>
+    <control controlID="108" controlTypeID="com.balsamiq.mockups::ComboBox" x="306" y="1539" w="-1" h="-1" measuredW="68" measuredH="23" zOrder="72" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dance</text>
+      </controlProperties>
+    </control>
+    <control controlID="110" controlTypeID="com.balsamiq.mockups::Label" x="196" y="1539" w="-1" h="-1" measuredW="71" measuredH="23" zOrder="73" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Search%20For</text>
+      </controlProperties>
+    </control>
+    <control controlID="112" controlTypeID="com.balsamiq.mockups::CheckBox" x="198" y="1570" w="-1" h="-1" measuredW="25" measuredH="22" zOrder="74" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="113" controlTypeID="com.balsamiq.mockups::Label" x="198" y="1592" w="12" h="20" measuredW="12" measuredH="23" zOrder="75" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>S</text>
+      </controlProperties>
+    </control>
+    <control controlID="114" controlTypeID="com.balsamiq.mockups::CheckBox" x="224" y="1570" w="-1" h="-1" measuredW="25" measuredH="22" zOrder="76" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="115" controlTypeID="com.balsamiq.mockups::Label" x="224" y="1592" w="12" h="20" measuredW="16" measuredH="23" zOrder="77" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>M</text>
+      </controlProperties>
+    </control>
+    <control controlID="116" controlTypeID="com.balsamiq.mockups::CheckBox" x="248" y="1570" w="-1" h="-1" measuredW="25" measuredH="22" zOrder="78" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="117" controlTypeID="com.balsamiq.mockups::Label" x="248" y="1592" w="12" h="20" measuredW="12" measuredH="23" zOrder="79" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>T</text>
+      </controlProperties>
+    </control>
+    <control controlID="118" controlTypeID="com.balsamiq.mockups::CheckBox" x="272" y="1570" w="-1" h="-1" measuredW="25" measuredH="22" zOrder="80" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="119" controlTypeID="com.balsamiq.mockups::Label" x="272" y="1592" w="16" h="20" measuredW="18" measuredH="23" zOrder="81" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>W</text>
+      </controlProperties>
+    </control>
+    <control controlID="120" controlTypeID="com.balsamiq.mockups::CheckBox" x="300" y="1570" w="-1" h="-1" measuredW="25" measuredH="22" zOrder="82" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="121" controlTypeID="com.balsamiq.mockups::Label" x="300" y="1592" w="12" h="20" measuredW="12" measuredH="23" zOrder="83" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>T</text>
+      </controlProperties>
+    </control>
+    <control controlID="122" controlTypeID="com.balsamiq.mockups::CheckBox" x="330" y="1570" w="-1" h="-1" measuredW="25" measuredH="22" zOrder="84" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="123" controlTypeID="com.balsamiq.mockups::Label" x="330" y="1592" w="12" h="20" measuredW="11" measuredH="23" zOrder="85" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>F</text>
+      </controlProperties>
+    </control>
+    <control controlID="124" controlTypeID="com.balsamiq.mockups::CheckBox" x="358" y="1572" w="-1" h="-1" measuredW="25" measuredH="22" zOrder="86" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="125" controlTypeID="com.balsamiq.mockups::Label" x="358" y="1594" w="12" h="20" measuredW="12" measuredH="23" zOrder="87" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>S</text>
+      </controlProperties>
+    </control>
+    <control controlID="127" controlTypeID="com.balsamiq.mockups::DataGrid" x="63" y="1671" w="758" h="166" measuredW="703" measuredH="176" zOrder="88" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <text>%5B%5D%2COffered%20Time%2C%20Sunday%2C%20Monday%2C%20Tuesday%2C%20Wednesday%2C%20Thursday%2C%20Friday%0A%5B%5D%2C4.00PM%20-%204.30PM%2C%20Enroll%20%282%20Open%29%2C%20Closed%2C%20Closed%2C%20Closed%2C%20Enroll%20%282%20Open%29%2C%20Enroll%20%281%20Open%29%0A%5B%5D%2C4.30PM%20-%205.00PM%2C%20Full%2C%20Closed%2C%20Closed%2C%20Closed%2C%20Enroll%20%285%20Open%29%2C%20Full%0A%5B%5D%2C5.00PM%20-%205.30PM%2C%20Enroll%20%282%20Open%29%2C%20Closed%2C%20Closed%2C%20Closed%2C%20Enroll%20%286%20Open%29%2C%20Full%0A%5B%5D%2C5.30PM%20-%206.00PM%2C%20Enroll%20%283%20Open%29%2C%20Closed%2C%20Closed%2C%20Closed%2C%20Full%2C%20Enroll%20%281%20Open%29%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="129" controlTypeID="com.balsamiq.mockups::HorizontalScrollBar" x="66" y="1652" w="755" h="-1" measuredW="100" measuredH="16" zOrder="89" locked="false" isInGroup="-1"/>
+    <control controlID="130" controlTypeID="com.balsamiq.mockups::Label" x="66" y="2069" w="-1" h="-1" measuredW="101" measuredH="23" zOrder="90" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Payment%20Option</text>
+      </controlProperties>
+    </control>
+    <control controlID="131" controlTypeID="com.balsamiq.mockups::ComboBox" x="433" y="2069" w="-1" h="-1" measuredW="108" measuredH="86" zOrder="91" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Master%20Card%0AVisa%20Card%0ADiscover%0AAmerican%20Express</text>
+      </controlProperties>
+    </control>
+    <control controlID="132" controlTypeID="com.balsamiq.mockups::DateChooser" x="658" y="2111" w="171" h="-1" measuredW="106" measuredH="27" zOrder="92" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%20/%20%20/%20%20%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="133" controlTypeID="com.balsamiq.mockups::Label" x="600" y="2113" w="-1" h="-1" measuredW="44" measuredH="23" zOrder="93" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Expiry</text>
+      </controlProperties>
+    </control>
+    <control controlID="134" controlTypeID="com.balsamiq.mockups::TextInput" x="658" y="2069" w="171" h="-1" measuredW="37" measuredH="27" zOrder="94" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Jain</text>
+      </controlProperties>
+    </control>
+    <control controlID="135" controlTypeID="com.balsamiq.mockups::Label" x="600" y="2070" w="-1" h="-1" measuredW="33" measuredH="23" zOrder="95" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Card</text>
+      </controlProperties>
+    </control>
+    <control controlID="136" controlTypeID="com.balsamiq.mockups::RadioButtonGroup" x="204" y="2069" w="-1" h="-1" measuredW="161" measuredH="69" zOrder="96" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%28o%29%20Credit%20Card%20%28selected%29%0A%28%20%29%20Check%0A%28%20%29%20Cash</text>
+      </controlProperties>
+    </control>
+    <control controlID="137" controlTypeID="com.balsamiq.mockups::Button" x="726" y="2153" w="136" h="28" measuredW="58" measuredH="28" zOrder="97" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Enroll</text>
+      </controlProperties>
+    </control>
+    <control controlID="138" controlTypeID="com.balsamiq.mockups::Label" x="66" y="1852" w="138" h="23" measuredW="131" measuredH="23" zOrder="98" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Student%20Information</text>
+      </controlProperties>
+    </control>
+    <control controlID="139" controlTypeID="com.balsamiq.mockups::Label" x="485" y="1854" w="138" h="23" measuredW="121" measuredH="23" zOrder="99" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Parent%20Information</text>
+      </controlProperties>
+    </control>
+    <control controlID="140" controlTypeID="com.balsamiq.mockups::TextInput" x="210" y="1871" w="115" h="-1" measuredW="52" measuredH="27" zOrder="100" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Sanika</text>
+      </controlProperties>
+    </control>
+    <control controlID="141" controlTypeID="com.balsamiq.mockups::TextInput" x="210" y="1901" w="115" h="-1" measuredW="41" measuredH="27" zOrder="101" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Kher</text>
+      </controlProperties>
+    </control>
+    <control controlID="142" controlTypeID="com.balsamiq.mockups::Label" x="80" y="1874" w="138" h="23" measuredW="71" measuredH="23" zOrder="102" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>First%20Name</text>
+      </controlProperties>
+    </control>
+    <control controlID="143" controlTypeID="com.balsamiq.mockups::Label" x="80" y="1900" w="138" h="23" measuredW="69" measuredH="23" zOrder="103" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Last%20Name</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
